@@ -16,7 +16,7 @@
         <apm-agent-parent.base.dir>${project.basedir}/../../..</apm-agent-parent.base.dir>
 
         <!-- version of gRPC API that we compile against -->
-        <grpc.version>1.23.0</grpc.version>
+        <grpc.version>1.42.1</grpc.version>
         <protobuf.version>3.8.0</protobuf.version>
     </properties>
 

@@ -12,7 +12,7 @@
     <name>${project.groupId}:${project.artifactId}</name>
 
     <properties>
-        <jmh.version>1.21</jmh.version>
+        <jmh.version>1.33</jmh.version>
         <uberjar.name>benchmarks</uberjar.name>
         <maven.compiler.target>${maven.compiler.testTarget}</maven.compiler.target>
         <maven.compiler.showWarnings>false</maven.compiler.showWarnings>
@@ -151,7 +151,7 @@
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>org.openjdk.jmh.Main</mainClass>
                                 </transformer>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                             </transformers>
                             <filters>
                                 <filter>

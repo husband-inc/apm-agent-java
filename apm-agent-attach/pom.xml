@@ -20,7 +20,7 @@
 
     <properties>
         <apm-agent-parent.base.dir>${project.basedir}/..</apm-agent-parent.base.dir>
-        <version.jna>5.3.1</version.jna>
+        <version.jna>5.10.0</version.jna>
     </properties>
 
     <dependencies>
@@ -145,8 +145,8 @@
                                 </relocation>
                             </relocations>
                             <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
                                     <resource>META-INF/LICENSE</resource>
                                     <file>${apm-agent-parent.base.dir}/LICENSE</file>

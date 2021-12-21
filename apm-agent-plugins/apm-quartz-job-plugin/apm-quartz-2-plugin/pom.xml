@@ -11,7 +11,7 @@
     <name>${project.groupId}:${project.artifactId}</name>
 
     <properties>
-        <version.quartz>2.3.1</version.quartz>
+        <version.quartz>2.3.2</version.quartz>
         <apm-agent-parent.base.dir>${project.basedir}/../../..</apm-agent-parent.base.dir>
     </properties>
 

@@ -17,7 +17,7 @@
         <!-- test module, thus reusing same java version as other tests -->
         <maven.compiler.target>${maven.compiler.testTarget}</maven.compiler.target>
 
-        <grpc.version>1.6.1</grpc.version>
+        <grpc.version>1.44.0</grpc.version>
         <protobuf.version>3.3.0</protobuf.version>
     </properties>
 

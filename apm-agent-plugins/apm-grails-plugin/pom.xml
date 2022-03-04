@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.grails</groupId>
             <artifactId>grails-web-mvc</artifactId>
-            <version>4.1.0.M4</version>
+            <version>5.1.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

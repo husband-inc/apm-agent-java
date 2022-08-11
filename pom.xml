@@ -124,7 +124,7 @@
         <version.cucumber>5.4.0</version.cucumber>
 
         <!-- used both for plugin & annotations dependency -->
-        <version.animal-sniffer>1.17</version.animal-sniffer>
+        <version.animal-sniffer>1.21</version.animal-sniffer>
 
         <version.testcontainers>1.15.2</version.testcontainers>
 

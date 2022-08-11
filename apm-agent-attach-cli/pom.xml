@@ -19,7 +19,7 @@
 
     <properties>
         <apm-agent-parent.base.dir>${project.basedir}/..</apm-agent-parent.base.dir>
-        <version.bouncy-castle.bcpg-fips>1.0.5.1</version.bouncy-castle.bcpg-fips>
+        <version.bouncy-castle.bcpg-fips>1.0.6</version.bouncy-castle.bcpg-fips>
         <version.bouncy-castle.bc-fips>1.0.2.1</version.bouncy-castle.bc-fips>
     </properties>
 
@@ -189,8 +189,8 @@
                                         <Main-Class>co.elastic.apm.attach.AgentAttacher</Main-Class>
                                     </manifestEntries>
                                 </transformer>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
                                     <resource>META-INF/LICENSE</resource>
                                     <file>${apm-agent-parent.base.dir}/LICENSE</file>
@@ -243,8 +243,8 @@
                                         <Main-Class>co.elastic.apm.attach.AgentAttacher</Main-Class>
                                     </manifestEntries>
                                 </transformer>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
                                     <resource>META-INF/LICENSE</resource>
                                     <file>${apm-agent-parent.base.dir}/LICENSE</file>
